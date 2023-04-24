@@ -17,7 +17,7 @@ export function NavbarMobile ({ openMenu, onHandleOpenMenu }) {
       </div>
       <div>
         <ul className='flex flex-col gap-6 mt-4 text-lg'>
-          <MenuRoutes />
+          <MenuRoutes style='text-text-color-secondary hover:underline hover:underline-offset-4' isActiveStyle='text-text-color-terciary' />
         </ul>
       </div>
     </div>

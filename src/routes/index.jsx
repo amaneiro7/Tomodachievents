@@ -34,13 +34,17 @@ const paths = [
   }
 ]
 
-export const MenuRoutes = () => paths.map(path =>
-  <NavLink
-    className={({ isActive }) => isActive
-      ? 'text-text-color-terciary hover:underline hover:underline-offset-4'
-      : 'text-text-color-secondary hover:underline hover:underline-offset-4'}
-    key={path.id}
-    to={path.path}
-  >
-    {path.name}
-  </NavLink>)
+export const MenuRoutes = ({ style, isActiveStyle }) => {
+  return paths.map(path =>
+    <NavLink
+      className={({ isActive }) => `${style} ${isActive && isActiveStyle}`}
+      // isActive
+      // // ? 'text-text-color-terciary hover:underline hover:underline-offset-4'
+      //   ? `${style}`
+      //   : 'text-text-color-secondary hover:underline hover:underline-offset-4'}
+      key={path.id}
+      to={path.path}
+    >
+      {path.name}
+    </NavLink>)
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Logo } from '../Logo'
+import { MenuRoutes } from '../../routes'
 
 export function Footer () {
   return (
@@ -12,12 +13,7 @@ export function Footer () {
         </div>
         <div>
           <h2 className='text-lg font-semibold'>Evento</h2>
-          <p>Inicio</p>
-          <p>Entradas</p>
-          <p>Alquiler de Stands</p>
-          <p>Ayuda</p>
-          <p>Contacto</p>
-          <p>Iniciar Sesion</p>
+          <MenuRoutes style='flex flex-col text-text-color-blanco' />
         </div>
         <div>
           <Logo />
