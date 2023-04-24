@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {                                   
+    /* rosagradiente */
+--color1: #795E75;
+--color2: #E59BD6;
+--color3: #E593D5;
+--color4: #EB88D8;
+--color5: #A9639B;
+/* azul oscuro */
+--color6: #151946;
+/* pasteles rosa */
+--color7: #F945BC;
+--color8: #0D0D0D;
+--color9: #FFA1E9;
+/* azul marino */
+--color10: #4FE5EF;
+/* rojo purpura */
+--color11: #99296F;
+/* blanco */
+--color11: #FBDBFA;
+}

@@ -1,0 +1,23 @@
+gradient de rosa
+#795E75
+#E59BD6
+#E593D5
+#EB88D8
+#A9639B
+
+azul oscuro
+#151946
+
+todanilidades pasteles
+#F945BC
+#0D0D0D
+#FFA1E9
+
+azul
+#4FE5EF
+
+rojo purpura letra
+#99296F
+
+blanco letra
+#FBDBFA
